@@ -1,9 +1,9 @@
 //
-//  AppDelegate.swift
-//  TestActivityItemProvider
+//	AppDelegate.swift
+//	TestActivityItemProvider
 //
-//  Created by Kaz Yoshikawa on 5/10/19.
-//  Copyright © 2019 Kaz Yoshikawa. All rights reserved.
+//	Created by Kaz Yoshikawa on 5/10/19.
+//	Copyright © 2019 Kaz Yoshikawa. All rights reserved.
 //
 
 import UIKit
