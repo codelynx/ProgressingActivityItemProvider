@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CCC2C8902285BD4C00E79ADA /* TestActivityItemProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestActivityItemProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC2C8902285BD4C00E79ADA /* ProgressingActivityItemProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressingActivityItemProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC2C8932285BD4C00E79ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC2C8952285BD4C00E79ADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCC2C8982285BD4C00E79ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		CCC2C8872285BD4C00E79ADA = {
 			isa = PBXGroup;
 			children = (
-				CCC2C8922285BD4C00E79ADA /* TestActivityItemProvider */,
+				CCC2C8922285BD4C00E79ADA /* ProgressingActivityItemProvider */,
 				CCC2C8912285BD4C00E79ADA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		CCC2C8912285BD4C00E79ADA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCC2C8902285BD4C00E79ADA /* TestActivityItemProvider.app */,
+				CCC2C8902285BD4C00E79ADA /* ProgressingActivityItemProvider.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCC2C8922285BD4C00E79ADA /* TestActivityItemProvider */ = {
+		CCC2C8922285BD4C00E79ADA /* ProgressingActivityItemProvider */ = {
 			isa = PBXGroup;
 			children = (
 				CCC2C8932285BD4C00E79ADA /* AppDelegate.swift */,
@@ -73,15 +73,15 @@
 				CCC2C8A52285BEDA00E79ADA /* TimeConsumingActivityItemProvider.swift */,
 				CCC2C8952285BD4C00E79ADA /* ViewController.swift */,
 			);
-			path = TestActivityItemProvider;
+			path = ProgressingActivityItemProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CCC2C88F2285BD4C00E79ADA /* TestActivityItemProvider */ = {
+		CCC2C88F2285BD4C00E79ADA /* ProgressingActivityItemProvider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCC2C8A22285BD4E00E79ADA /* Build configuration list for PBXNativeTarget "TestActivityItemProvider" */;
+			buildConfigurationList = CCC2C8A22285BD4E00E79ADA /* Build configuration list for PBXNativeTarget "ProgressingActivityItemProvider" */;
 			buildPhases = (
 				CCC2C88C2285BD4C00E79ADA /* Sources */,
 				CCC2C88D2285BD4C00E79ADA /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = TestActivityItemProvider;
+			name = ProgressingActivityItemProvider;
 			productName = TestActivityItemProvider;
-			productReference = CCC2C8902285BD4C00E79ADA /* TestActivityItemProvider.app */;
+			productReference = CCC2C8902285BD4C00E79ADA /* ProgressingActivityItemProvider.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CCC2C88B2285BD4C00E79ADA /* Build configuration list for PBXProject "TestActivityItemProvider" */;
+			buildConfigurationList = CCC2C88B2285BD4C00E79ADA /* Build configuration list for PBXProject "ProgressingActivityItemProvider" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCC2C88F2285BD4C00E79ADA /* TestActivityItemProvider */,
+				CCC2C88F2285BD4C00E79ADA /* ProgressingActivityItemProvider */,
 			);
 		};
 /* End PBXProject section */
@@ -300,12 +300,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = TestActivityItemProvider/Info.plist;
+				INFOPLIST_FILE = ProgressingActivityItemProvider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.TestActivityItemProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.ProgressingActivityItemProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,12 +318,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = TestActivityItemProvider/Info.plist;
+				INFOPLIST_FILE = ProgressingActivityItemProvider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.TestActivityItemProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.ProgressingActivityItemProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCC2C88B2285BD4C00E79ADA /* Build configuration list for PBXProject "TestActivityItemProvider" */ = {
+		CCC2C88B2285BD4C00E79ADA /* Build configuration list for PBXProject "ProgressingActivityItemProvider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCC2C8A02285BD4E00E79ADA /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCC2C8A22285BD4E00E79ADA /* Build configuration list for PBXNativeTarget "TestActivityItemProvider" */ = {
+		CCC2C8A22285BD4E00E79ADA /* Build configuration list for PBXNativeTarget "ProgressingActivityItemProvider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCC2C8A32285BD4E00E79ADA /* Debug */,

@@ -1,6 +1,6 @@
 //
 //	ProgressViewController.swift
-//	TestActivityItemProvider
+//	ProgressingActivityItemProvider
 //
 //	Created by Kaz Yoshikawa on 5/10/19.
 //	Copyright © 2019 Kaz Yoshikawa. All rights reserved.

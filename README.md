@@ -1,4 +1,4 @@
-# TestActivityItemProvider
+# ProgressingActivityItemProvider
 
 ## Purpose of this code and project
 This project is for the purpose of demonstrating how to display/present progress bar like view controller while generating items that could take more than few minutes.
