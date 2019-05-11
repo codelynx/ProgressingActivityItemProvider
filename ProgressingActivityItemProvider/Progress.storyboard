@@ -13,7 +13,7 @@
         <!--Progress View Controller-->
         <scene sceneID="NLU-8r-zjm">
             <objects>
-                <viewController id="nfX-e6-ZDq" customClass="ProgressViewController" customModule="TestActivityItemProvider" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nfX-e6-ZDq" customClass="ProgressViewController" customModule="ProgressingActivityItemProvider" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZNJ-6W-HBJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.48095034246575341" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="b7m-DD-Xon" firstAttribute="top" secondItem="Pun-U5-5Gm" secondAttribute="bottom" constant="16" id="3MZ-5V-O8m"/>
                             <constraint firstItem="Pun-U5-5Gm" firstAttribute="centerX" secondItem="ZNJ-6W-HBJ" secondAttribute="centerX" id="IXh-ko-RlM"/>

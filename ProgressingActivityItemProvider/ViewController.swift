@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 	}
 
 	@IBAction func activityAction(_ sender: Any) {
-		let test1 = TimeConsumingActivityItemProvider(filename: "sample1", hostViewController: self)
+		let test1 = ProgressingActivityItemProvider(filename: "sample1", hostViewController: self)
 		
 		let activityItems: [Any] = [test1]
 		let activities: [UIActivity] = []

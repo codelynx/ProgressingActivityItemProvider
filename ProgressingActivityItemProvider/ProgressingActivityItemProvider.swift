@@ -1,5 +1,5 @@
 //
-//	TimeConsumingActivityItemProvider.swift
+//	ProgressingActivityItemProvider.swift
 //	ProgressingActivityItemProvider
 //
 //	Created by Kaz Yoshikawa on 5/10/19.
@@ -9,7 +9,7 @@
 import UIKit
 import PDFKit
 
-class TimeConsumingActivityItemProvider: UIActivityItemProvider {
+class ProgressingActivityItemProvider: UIActivityItemProvider {
 	
 	let outputUrl: URL
 	let hostViewController: UIViewController
@@ -30,7 +30,7 @@ class TimeConsumingActivityItemProvider: UIActivityItemProvider {
 		let progressViewController = UIStoryboard(name: "Progress", bundle: nil).instantiateInitialViewController() as! ProgressViewController
 		self.progressViewController = progressViewController
 		DispatchQueue.main.async {
-			progressViewController.modalPresentationStyle = .fullScreen
+			progressViewController.modalPresentationStyle = .overFullScreen
 			let viewController = self.hostViewController.presentedViewController!
 			viewController.present(progressViewController, animated: true, completion: nil)
 		}

@@ -12,7 +12,7 @@
 		CCC2C8992285BD4C00E79ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC2C8972285BD4C00E79ADA /* Main.storyboard */; };
 		CCC2C89B2285BD4E00E79ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC2C89A2285BD4E00E79ADA /* Assets.xcassets */; };
 		CCC2C89E2285BD4E00E79ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC2C89C2285BD4E00E79ADA /* LaunchScreen.storyboard */; };
-		CCC2C8A62285BEDA00E79ADA /* TimeConsumingActivityItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2C8A52285BEDA00E79ADA /* TimeConsumingActivityItemProvider.swift */; };
+		CCC2C8A62285BEDA00E79ADA /* ProgressingActivityItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2C8A52285BEDA00E79ADA /* ProgressingActivityItemProvider.swift */; };
 		CCC2C8A822860B2C00E79ADA /* Progress.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC2C8A722860B2C00E79ADA /* Progress.storyboard */; };
 		CCC2C8AA22860B6A00E79ADA /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2C8A922860B6A00E79ADA /* ProgressViewController.swift */; };
 		CCC2C8AC2286302100E79ADA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CCC2C8AB2286302100E79ADA /* README.md */; };
@@ -26,7 +26,7 @@
 		CCC2C89A2285BD4E00E79ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCC2C89D2285BD4E00E79ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCC2C89F2285BD4E00E79ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCC2C8A52285BEDA00E79ADA /* TimeConsumingActivityItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConsumingActivityItemProvider.swift; sourceTree = "<group>"; };
+		CCC2C8A52285BEDA00E79ADA /* ProgressingActivityItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressingActivityItemProvider.swift; sourceTree = "<group>"; };
 		CCC2C8A722860B2C00E79ADA /* Progress.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Progress.storyboard; sourceTree = "<group>"; };
 		CCC2C8A922860B6A00E79ADA /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		CCC2C8AB2286302100E79ADA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -70,7 +70,7 @@
 				CCC2C8A722860B2C00E79ADA /* Progress.storyboard */,
 				CCC2C8A922860B6A00E79ADA /* ProgressViewController.swift */,
 				CCC2C8AB2286302100E79ADA /* README.md */,
-				CCC2C8A52285BEDA00E79ADA /* TimeConsumingActivityItemProvider.swift */,
+				CCC2C8A52285BEDA00E79ADA /* ProgressingActivityItemProvider.swift */,
 				CCC2C8952285BD4C00E79ADA /* ViewController.swift */,
 			);
 			path = ProgressingActivityItemProvider;
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCC2C8A62285BEDA00E79ADA /* TimeConsumingActivityItemProvider.swift in Sources */,
+				CCC2C8A62285BEDA00E79ADA /* ProgressingActivityItemProvider.swift in Sources */,
 				CCC2C8962285BD4C00E79ADA /* ViewController.swift in Sources */,
 				CCC2C8942285BD4C00E79ADA /* AppDelegate.swift in Sources */,
 				CCC2C8AA22860B6A00E79ADA /* ProgressViewController.swift in Sources */,
